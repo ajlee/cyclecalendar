@@ -9,3 +9,118 @@ Version:        0.0.1
 */
 
 @import url("../thematic/style.css");
+
+
+@media screen and (min-width:321px) and (max-width:768px)
+{
+h1 {
+color:green !important;
+}
+}
+
+
+@media screen and (max-width:320px)
+{
+h1 {
+color:red !important;
+}
+}
+
+@media screen and (min-width:902px)
+{
+h1 {
+color:blue !important;
+
+}
+  #wrapper  
+  {  
+    WIDTH:94%;  
+    MARGIN:20px auto;  
+  }  
+  
+  #access,#access .menu-header,div.menu,#colophon,#branding,#main,#footer  
+  {  
+    WIDTH:100%;  
+    MARGIN:0 auto;  
+  }  
+  
+  #branding  
+  {  
+    OVERFLOW:hidden;  
+  }  
+  
+  #container  
+  {  
+    FLOAT:right;  
+    
+  WIDTH:23.40425535%; 
+    MARGIN:0 0 0 0;  
+  }  
+  
+  #content  
+  {  
+    FLOAT:right;  
+    WIDTH:68.5957447%;  
+    MARGIN:0 29.787234% 0 20px;  
+  }  
+  
+  #primary,#secondary  
+  {  
+    OVERFLOW:hidden;  
+
+	FLOAT:LEFT;
+  }  
+  
+  #primary
+  {
+	  WIDTH:23.40425535%; 
+	  }
+
+  #secondary
+  {
+      WIDTH:45.19148935%;
+	CLEAR:none;
+	}
+  
+  #text-2 .textwidget
+  {
+	text-align:center;
+	}
+#maingooglemap
+{
+  margin-left: auto ;
+  margin-right: auto ;
+	}
+
+
+  #site-title,#site-info  
+  {  
+    WIDTH:74.4680851%;  
+  }  
+  
+  #footer-widget-area .widget-area,#site-generator,#site-description  
+  {  
+    WIDTH:23.40425535%;  
+  }  
+}
+
+#primary {
+    border:1px solid #ccc;
+    padding:18px 0 0 0;
+    margin-bottom:22px;
+}
+
+#secondary {
+    padding:18px 0 0 0;
+    margin-bottom:22px;
+}
+
+#text-2 .widgettitle 
+{ 
+	display:none;
+	}
+
+
+  p {
+	width:94%;
+	}
